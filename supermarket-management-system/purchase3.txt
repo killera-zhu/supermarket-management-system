@@ -1,0 +1,6 @@
+time:2024.06.02 18:27
+category:electricalappliance
+name:computer
+price:5
+purchase number:1
+total money:5

@@ -1,0 +1,8 @@
+time:2024.06.02 22:36
+ID:1
+reason:apple is not sweet
+category:food
+name:apple
+price:1.5
+purchase number:1
+total money:1.5

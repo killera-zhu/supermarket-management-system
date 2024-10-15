@@ -1,0 +1,6 @@
+time:
+category:dailygood
+name:pen
+price:1.5
+purchase number:20
+total money:30

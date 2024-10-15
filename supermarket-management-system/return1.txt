@@ -1,0 +1,8 @@
+time:2024.06.02 19:01
+ID:1
+reason:apple
+category:food
+name:apple
+price:0
+purchase number:1
+total money:0

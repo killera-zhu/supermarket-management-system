@@ -1,0 +1,6 @@
+time:2024.06.02 18:32
+category:dailygood
+name:notebook
+price:15
+purchase number:50
+total money:750
