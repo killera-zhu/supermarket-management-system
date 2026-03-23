@@ -1,19 +1,43 @@
 # supermarket-management-system
 
-## 大一课程作业，基于Qt的超市管理系统
+> 基于 **Qt Widgets** 的超市管理系统课程项目（支持源码构建与 Windows 可执行文件运行）。
+> A **Qt Widgets** supermarket management system (course project) with source code and a Windows build.
 
-## 功能实现
-+ 初始化
-+ 增加商品/删除商品
-+ 商品信息显示
-+ 卖出商品
-+ 退回商品
-+ 保存信息
+## 功能 / Features
+- 商品初始化
+- 商品新增/删除
+- 商品信息展示
+- 商品售出/退货
+- 数据保存
 
-## 文件说明
-1. 工程文件（源文件、头文件以及.pro）均在supermarket-management-system文件夹下，该文件夹中要运行需要重新构建编译。
-2. 可以打开“超市管理系统”，项目已经打包，点击.exe文件可以直接运行。
+## 目录结构 / Structure
+```
+.
+├── supermarket-management-system/      # Qt 源码工程（.cpp/.h/.ui）
+│   ├── CMakeLists.txt
+│   └── ...
+└── 超市管理系统（可执行文件）/           # Windows 可执行文件与运行依赖
+    └── 超市管理系统.exe
+```
 
-<br>
+## 运行方式 / Run
 
-**后续不会更新!**
+### 方式一：直接运行（Windows）
+进入 `超市管理系统（可执行文件）/` 目录，双击 `超市管理系统.exe`。
+
+### 方式二：源码构建（Qt Creator / CMake）
+**依赖**：Qt 5/6（Widgets）、CMake ≥ 3.5、C++17
+
+```bash
+mkdir build && cd build
+cmake ../supermarket-management-system
+cmake --build .
+```
+
+## 说明 / Notes
+- 工程入口：`main.cpp`
+- UI 文件：`mainwindow.ui`、`form.ui`
+- 可执行目录已包含运行所需的 Qt 依赖（Windows）
+
+## License
+未声明。
