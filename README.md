@@ -1,7 +1,10 @@
 # supermarket-management-system
 
-> 基于 **Qt Widgets** 的超市管理系统课程项目（支持源码构建与 Windows 可执行文件运行）。
+> 基于 **Qt Widgets** 的超市管理系统课程项目，包含源码与 Windows 可执行文件。
 > A **Qt Widgets** supermarket management system (course project) with source code and a Windows build.
+
+## 项目目的 / Purpose
+用于练习 Qt 桌面应用开发与基本业务流（商品入库、出库、退货、信息展示等）的完整实现。
 
 ## 功能 / Features
 - 商品初始化
@@ -10,11 +13,18 @@
 - 商品售出/退货
 - 数据保存
 
+## 技术栈 / Tech Stack
+- C++17
+- Qt 5/6 Widgets
+- CMake
+
 ## 目录结构 / Structure
 ```
 .
 ├── supermarket-management-system/      # Qt 源码工程（.cpp/.h/.ui）
 │   ├── CMakeLists.txt
+│   ├── main.cpp
+│   ├── mainwindow.ui
 │   └── ...
 └── 超市管理系统（可执行文件）/           # Windows 可执行文件与运行依赖
     └── 超市管理系统.exe
